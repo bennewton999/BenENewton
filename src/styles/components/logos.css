@@ -1,0 +1,50 @@
+.logos {
+  display: flex;
+  flex-flow: wrap; 
+  justify-content: space-around;
+  padding: 0;
+  & .logo {
+    background-color: #fff;
+    box-sizing: border-box;
+    flex: 14%;
+    padding-top: calc(14% - 20px);
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #EDEDED;
+    border-radius: 50%;
+    margin: 1%;
+    list-style-type: none;
+    overflow: hidden;
+    text-indent: -9999px;
+    
+    @media (max-width: 768px) {
+      flex: 30%;
+      padding-top: calc(30% - 20px);
+    }
+    @media (max-width: 640px) {
+      flex: 45%;
+      padding-top: calc(45% - 20px);
+    }
+  }
+  & .alamo {
+    background-image: url('../images/alamo-bw.svg');
+    
+  }
+  & .bridgestone {
+    background-image: url('../images/bridgestone.svg');
+  }
+  & .norwegian {
+    background-image: url('../images/norwegian-cruise-line-bw.svg');
+  }
+  & .enterprise {
+    background-image: url('../images/enterprise-rent-a-car.svg');
+  }
+  & .oakley {
+    background-image: url('../images/oakley.svg');
+  }
+  & .taco-bell {
+    background-image: url('../images/taco-bell-bw.svg');
+    background-size: 47%;
+  }
+}

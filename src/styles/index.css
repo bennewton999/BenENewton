@@ -1,0 +1,78 @@
+@import "components/logos.css";
+
+body {
+    // background-color: #222;
+    color: #222;
+    font-family: 'Muli', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+.me {
+    border-radius: 50%;
+    width:20%;
+    min-width: 150px;
+    border: 2px solid #ededed;
+    padding: 1em;
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 6em;
+    margin-bottom: .2em;
+    margin-top: .2em;
+    @media (max-width: 640px) {
+      font-size: 4em;
+    
+    }
+    @media (max-width: 420px) {
+      font-size: 2em;
+    
+    }
+}
+
+h2 {
+    font-weight: 200;
+    @media (max-width: 420px) {
+      font-size: 1em;
+    
+    }
+}
+
+.get-in-touch {
+    color: #222;
+    text-decoration: none;
+    border: 1px solid #222;
+    margin-top: 1em;
+    padding: 1em 2em;
+    display: inline-block;
+    font-weight: 200;
+    text-transform: uppercase;
+    &:hover {
+        color: #fff;
+        background-color: #222;
+    }
+}
+
+.social {
+    font-size: 2em;
+    & a {
+        color: #222;
+    }
+    @media (max-width: 420px) {
+      font-size: 2em;
+    
+    }
+}
+
+h3 {
+    
+    margin: 2em 1% 1em 1%;
+}
+
+main {
+    margin: auto;
+    max-width: 1200px;
+}
